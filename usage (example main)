@@ -1,0 +1,9 @@
+from capture import run
+from flow import update
+from log import write
+
+def process(pkt):
+    entry = update(pkt)
+    write(entry)
+
+run(process)
