@@ -227,13 +227,10 @@ full implementation remains restricted to controlled environments
 ---
 
 ## summary
+ZeekLite
 
-zeeklite provides controlled network visibility through:
+Lightweight network telemetry tool for high-throughput monitoring with minimal overhead.
 
-capture → reduce → indicate → export
-
-no heavy processing layers  
-no packet retention  
-no exposed detection logic  
-
-built for operators requiring lightweight, real-time awareness of network behavior without full-scale inspection systems
+Stream-based flow analysis and anomaly indication
+Passive observation only, no payload retention
+Integrates easily with defensive systems for real-time awareness
